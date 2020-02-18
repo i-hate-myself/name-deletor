@@ -1,4 +1,4 @@
 #!/bin/bash
 echo what do you want to delete
 read thenamedude
-sudo rm -rf $(ls -a | grep *$thenamedude*)
+sudo rm -rf $(ls -a ./ | grep *$thenamedude* )
